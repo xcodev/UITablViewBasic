@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21DCAFC158903C4009FD4AC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21DCAFB158903C4009FD4AC /* UIKit.framework */; };
+		F21DCAFE158903C4009FD4AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21DCAFD158903C4009FD4AC /* Foundation.framework */; };
+		F21DCB00158903C4009FD4AC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21DCAFF158903C4009FD4AC /* CoreGraphics.framework */; };
+		F21DCB06158903C4009FD4AC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F21DCB04158903C4009FD4AC /* InfoPlist.strings */; };
+		F21DCB08158903C4009FD4AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F21DCB07158903C4009FD4AC /* main.m */; };
+		F21DCB0C158903C4009FD4AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F21DCB0B158903C4009FD4AC /* AppDelegate.m */; };
+		F21DCB1515890431009FD4AC /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21DCB1315890431009FD4AC /* WelcomeViewController.m */; };
+		F21DCB1615890431009FD4AC /* WelcomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21DCB1415890431009FD4AC /* WelcomeViewController.xib */; };
+		F21DCB1A1589076D009FD4AC /* GiaiDauViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21DCB181589076D009FD4AC /* GiaiDauViewController.m */; };
+		F21DCB1B1589076D009FD4AC /* GiaiDauViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21DCB191589076D009FD4AC /* GiaiDauViewController.xib */; };
+		F21DCB1F15890D33009FD4AC /* DanhSachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F21DCB1D15890D33009FD4AC /* DanhSachViewController.m */; };
+		F21DCB2015890D33009FD4AC /* DanhSachViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F21DCB1E15890D33009FD4AC /* DanhSachViewController.xib */; };
+		F25B26D9158C32A800B291A6 /* XcodeIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = F25B26D8158C32A800B291A6 /* XcodeIcon.png */; };
+		F25B26DC158C332100B291A6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F25B26DB158C332100B291A6 /* logo.png */; };
+		F2B94C601589136C0094A72B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B94C5E1589136C0094A72B /* Icon.png */; };
+		F2B94C611589136C0094A72B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2B94C5F1589136C0094A72B /* Icon@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F21DCAF7158903C4009FD4AC /* NavTableBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTableBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21DCAFB158903C4009FD4AC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F21DCAFD158903C4009FD4AC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F21DCAFF158903C4009FD4AC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F21DCB03158903C4009FD4AC /* NavTableBasic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NavTableBasic-Info.plist"; sourceTree = "<group>"; };
+		F21DCB05158903C4009FD4AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F21DCB07158903C4009FD4AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F21DCB09158903C4009FD4AC /* NavTableBasic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NavTableBasic-Prefix.pch"; sourceTree = "<group>"; };
+		F21DCB0A158903C4009FD4AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F21DCB0B158903C4009FD4AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F21DCB1215890431009FD4AC /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WelcomeViewController.h; path = NavTableBasic/WelcomeViewController.h; sourceTree = "<group>"; };
+		F21DCB1315890431009FD4AC /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WelcomeViewController.m; path = NavTableBasic/WelcomeViewController.m; sourceTree = "<group>"; };
+		F21DCB1415890431009FD4AC /* WelcomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WelcomeViewController.xib; path = NavTableBasic/WelcomeViewController.xib; sourceTree = "<group>"; };
+		F21DCB171589076D009FD4AC /* GiaiDauViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GiaiDauViewController.h; sourceTree = "<group>"; };
+		F21DCB181589076D009FD4AC /* GiaiDauViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GiaiDauViewController.m; sourceTree = "<group>"; };
+		F21DCB191589076D009FD4AC /* GiaiDauViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GiaiDauViewController.xib; sourceTree = "<group>"; };
+		F21DCB1C15890D33009FD4AC /* DanhSachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DanhSachViewController.h; sourceTree = "<group>"; };
+		F21DCB1D15890D33009FD4AC /* DanhSachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DanhSachViewController.m; sourceTree = "<group>"; };
+		F21DCB1E15890D33009FD4AC /* DanhSachViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DanhSachViewController.xib; sourceTree = "<group>"; };
+		F25B26D8158C32A800B291A6 /* XcodeIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = XcodeIcon.png; path = NavTableBasic/XcodeIcon.png; sourceTree = "<group>"; };
+		F25B26DB158C332100B291A6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = NavTableBasic/logo.png; sourceTree = "<group>"; };
+		F2B94C5E1589136C0094A72B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		F2B94C5F1589136C0094A72B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21DCAF4158903C4009FD4AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21DCAFC158903C4009FD4AC /* UIKit.framework in Frameworks */,
+				F21DCAFE158903C4009FD4AC /* Foundation.framework in Frameworks */,
+				F21DCB00158903C4009FD4AC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F21DCAEC158903C3009FD4AC = {
+			isa = PBXGroup;
+			children = (
+				F25B26DB158C332100B291A6 /* logo.png */,
+				F25B26D8158C32A800B291A6 /* XcodeIcon.png */,
+				F2B94C5E1589136C0094A72B /* Icon.png */,
+				F2B94C5F1589136C0094A72B /* Icon@2x.png */,
+				F21DCB1C15890D33009FD4AC /* DanhSachViewController.h */,
+				F21DCB1D15890D33009FD4AC /* DanhSachViewController.m */,
+				F21DCB1E15890D33009FD4AC /* DanhSachViewController.xib */,
+				F21DCB171589076D009FD4AC /* GiaiDauViewController.h */,
+				F21DCB181589076D009FD4AC /* GiaiDauViewController.m */,
+				F21DCB191589076D009FD4AC /* GiaiDauViewController.xib */,
+				F21DCB1215890431009FD4AC /* WelcomeViewController.h */,
+				F21DCB1315890431009FD4AC /* WelcomeViewController.m */,
+				F21DCB1415890431009FD4AC /* WelcomeViewController.xib */,
+				F21DCB01158903C4009FD4AC /* NavTableBasic */,
+				F21DCAFA158903C4009FD4AC /* Frameworks */,
+				F21DCAF8158903C4009FD4AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21DCAF8158903C4009FD4AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21DCAF7158903C4009FD4AC /* NavTableBasic.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21DCAFA158903C4009FD4AC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F21DCAFB158903C4009FD4AC /* UIKit.framework */,
+				F21DCAFD158903C4009FD4AC /* Foundation.framework */,
+				F21DCAFF158903C4009FD4AC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F21DCB01158903C4009FD4AC /* NavTableBasic */ = {
+			isa = PBXGroup;
+			children = (
+				F21DCB0A158903C4009FD4AC /* AppDelegate.h */,
+				F21DCB0B158903C4009FD4AC /* AppDelegate.m */,
+				F21DCB02158903C4009FD4AC /* Supporting Files */,
+			);
+			path = NavTableBasic;
+			sourceTree = "<group>";
+		};
+		F21DCB02158903C4009FD4AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F21DCB03158903C4009FD4AC /* NavTableBasic-Info.plist */,
+				F21DCB04158903C4009FD4AC /* InfoPlist.strings */,
+				F21DCB07158903C4009FD4AC /* main.m */,
+				F21DCB09158903C4009FD4AC /* NavTableBasic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21DCAF6158903C4009FD4AC /* NavTableBasic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F21DCB0F158903C4009FD4AC /* Build configuration list for PBXNativeTarget "NavTableBasic" */;
+			buildPhases = (
+				F21DCAF3158903C4009FD4AC /* Sources */,
+				F21DCAF4158903C4009FD4AC /* Frameworks */,
+				F21DCAF5158903C4009FD4AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NavTableBasic;
+			productName = NavTableBasic;
+			productReference = F21DCAF7158903C4009FD4AC /* NavTableBasic.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F21DCAEE158903C3009FD4AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = BlogXcode;
+			};
+			buildConfigurationList = F21DCAF1158903C3009FD4AC /* Build configuration list for PBXProject "NavTableBasic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F21DCAEC158903C3009FD4AC;
+			productRefGroup = F21DCAF8158903C4009FD4AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21DCAF6158903C4009FD4AC /* NavTableBasic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F21DCAF5158903C4009FD4AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21DCB06158903C4009FD4AC /* InfoPlist.strings in Resources */,
+				F21DCB1615890431009FD4AC /* WelcomeViewController.xib in Resources */,
+				F21DCB1B1589076D009FD4AC /* GiaiDauViewController.xib in Resources */,
+				F21DCB2015890D33009FD4AC /* DanhSachViewController.xib in Resources */,
+				F2B94C601589136C0094A72B /* Icon.png in Resources */,
+				F2B94C611589136C0094A72B /* Icon@2x.png in Resources */,
+				F25B26D9158C32A800B291A6 /* XcodeIcon.png in Resources */,
+				F25B26DC158C332100B291A6 /* logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21DCAF3158903C4009FD4AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21DCB08158903C4009FD4AC /* main.m in Sources */,
+				F21DCB0C158903C4009FD4AC /* AppDelegate.m in Sources */,
+				F21DCB1515890431009FD4AC /* WelcomeViewController.m in Sources */,
+				F21DCB1A1589076D009FD4AC /* GiaiDauViewController.m in Sources */,
+				F21DCB1F15890D33009FD4AC /* DanhSachViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F21DCB04158903C4009FD4AC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21DCB05158903C4009FD4AC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F21DCB0D158903C4009FD4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F21DCB0E158903C4009FD4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F21DCB10158903C4009FD4AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTableBasic/NavTableBasic-Prefix.pch";
+				INFOPLIST_FILE = "NavTableBasic/NavTableBasic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F21DCB11158903C4009FD4AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NavTableBasic/NavTableBasic-Prefix.pch";
+				INFOPLIST_FILE = "NavTableBasic/NavTableBasic-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F21DCAF1158903C3009FD4AC /* Build configuration list for PBXProject "NavTableBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21DCB0D158903C4009FD4AC /* Debug */,
+				F21DCB0E158903C4009FD4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F21DCB0F158903C4009FD4AC /* Build configuration list for PBXNativeTarget "NavTableBasic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F21DCB10158903C4009FD4AC /* Debug */,
+				F21DCB11158903C4009FD4AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F21DCAEE158903C3009FD4AC /* Project object */;
+}
